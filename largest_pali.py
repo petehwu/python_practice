@@ -6,14 +6,14 @@ def longestPalindrome(str):
     longest = ""
    
     for idx, c in enumerate(str):
-        """ case for even number strings
+        """ case for odd number strings
         """
         tempStr = ""
         tempStr = findLongest(str, idx, idx)
         if len(tempStr) > len(longest):
             longest = tempStr
         
-        """ case for odd number string
+        """ case for even number string
         """
         tempStr = findLongest(str, idx, idx+1)
         if len(tempStr) > len(longest):
