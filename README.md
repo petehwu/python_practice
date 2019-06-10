@@ -11,6 +11,7 @@ merge_sort.py | merge sort implementation
 quick_sort.py | quick sort implementation
 largest_pali.py | Finds the largest substring palindrome in a string
 binary_search.py | Binary Search algo practice
+sorting_dictionary.py | quick way to sort dictionary
 
 
 #### Author
