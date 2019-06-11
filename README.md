@@ -13,6 +13,7 @@ largest_pali.py | Finds the largest substring palindrome in a string
 binary_search.py | Binary Search algo practice
 sorting_dictionary.py | quick way to sort dictionary
 string_mainpulation.py | simple string manipulations
+binary_search_tree.py | Binary Search Tree implementation
 
 
 #### Author
