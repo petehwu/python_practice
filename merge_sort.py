@@ -3,12 +3,14 @@
 merge sort algo
 """
 
+
 def ms(arr):
     """ entry point for merge sort
     """
-    print ("before merge sort {}".format(arr))
+    print("before merge sort {}".format(arr))
     rms(arr)
-    print ("after merge sort {}".format(arr))
+    print("after merge sort {}".format(arr))
+
 
 def rms(arr):
     """ recursive function that keep splitting the list till 1 element in left and right
@@ -20,6 +22,7 @@ def rms(arr):
         rms(left)
         rms(right)
         mergeLR(arr, left, right)
+
 
 def mergeLR(arr, left, right):
     """merges the left and right into one orderd list

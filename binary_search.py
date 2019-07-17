@@ -20,7 +20,7 @@ def bs(arr, left, right, v):
     """
     if left > right:
         return None
-    m = (left + right)//2
+    m = (left + right) // 2
     if v == arr[m]:
         return m
     elif v > arr[m]:
@@ -28,7 +28,7 @@ def bs(arr, left, right, v):
     else:
         return(bs(arr, 0, m - 1, v))
 
-k
+
 if __name__ == '__main__':
     binsearch([0,1,2,3,4,5,9, 10, 15, 20], 0)
     binsearch([0,1,2,3,4,5,9, 10, 15, 20], 1)
